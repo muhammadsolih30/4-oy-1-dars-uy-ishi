@@ -177,22 +177,28 @@
 
 //! 10-masala
 
+ 
+// function  isPowerN(K, N) {
+//    if(K > 0){
+//       if(N ** 1 ||N ** 2 || N ** 3 || N ** 4 || N ** 4 || N ** 5 || N ** 6 || N ** 7 || N ** 8 || N ** 9 || N ** 10  == K){
+//          return "ha N ni nechinchidar darajasi K ga teng"
+//       }
+//       else{
+//          return "yuq teng emas"
+//       }
+//    }
+//    else{
+//       return "k soni 0 dan katta emas yokim dasturda qandaydir muammo bor"
+//    }
+// }
+// let natija = isPowerN(1,0);
+// console.log(natija)
 
-function isPowerN(K, N) {
-  if (K > 0){
-      if(N ** 1 || N ** 2 || N ** 3 || N ** 4 || N ** 5 || N ** 6 || N ** 7 || N ** 8 || N ** 9 || N ** 10 == K){
-        return "ha teng"
-      }
-      else{
-        return "yuq teng emas"
-      }
-  }
-  else{
-    return "natija ten emas"
-  }
-  
-}
-console.log(isPowerN(15))
+
+
+//! 11-masala
+
+
 
 
 
