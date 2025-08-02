@@ -108,30 +108,67 @@
 
 //! 7-masala
 
-function calc(A, B, S){
-  S = '-'
-  let son = NaN
-  switch (S) {
-    case '*':
-       son = A * B
-      return son;
-      break;
-    case '/':
-       son = A / B
-      return son;
-      break;
-    case '+':
-       son = A + B
-       return son;
-       break;
-    case '-':
-       son = A - B
-      return son;
-      break;
+// function calc(A, B, S){
+//   S = '-'
+//   let son = NaN
+//   switch (S) {
+//     case '*':
+//        son = A * B
+//       return son;
+//       break;
+//     case '/':
+//        son = A / B
+//       return son;
+//       break;
+//     case '+':
+//        son = A + B
+//        return son;
+//        break;
+//     case '-':
+//        son = A - B
+//       return son;
+//       break;
 
-    default:
-      console.log("bunday naija niqlanmadi")
-      break;
+//     default:
+//       console.log("bunday naija niqlanmadi")
+//       break;
+//   }
+// }
+// console.log(calc(15, 5, '-'))
+
+
+
+
+//! 8-masala
+
+// function  isEven(K) {
+//   if(K % 2 == 0){
+//     return true
+//   }
+//   else{
+//     return false
+//   }
+// }
+// console.log(isEven(14))
+
+
+//! 9-masala
+
+
+function  sortABC(a, b, c) {
+
+  if(a < b && a < c){
+    return "eng kichigi a" ,a
+  }
+  else if(b < a && b < c){
+    return "eng kichigi b"
+  }
+  else if(c < b && c < a){
+    return "eng kichigi c ",c
+  }
+  else{
+    return "bunday qiymat yuq"
   }
 }
-console.log(calc(15, 5, '-'))
+
+console.log(sortABC(10,45,55))
