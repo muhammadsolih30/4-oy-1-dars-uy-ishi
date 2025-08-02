@@ -155,20 +155,47 @@
 //! 9-masala
 
 
-function  sortABC(a, b, c) {
+// function  sortABC(a, b, c) {
 
-  if(a < b && a < c){
-    return "eng kichigi a" ,a
-  }
-  else if(b < a && b < c){
-    return "eng kichigi b"
-  }
-  else if(c < b && c < a){
-    return "eng kichigi c ",c
+//   if(a < b && a < c){
+//     return "eng kichigi a" ,a
+//   }
+//   else if(b < a && b < c){
+//     return "eng kichigi b"
+//   }
+//   else if(c < b && c < a){
+//     return "eng kichigi c ",c
+//   }
+//   else{
+//     return "bunday qiymat yuq"
+//   }
+// }
+
+// console.log(sortABC(10,45,55))
+
+
+
+//! 10-masala
+
+
+function isPowerN(K, N) {
+  if (K > 0){
+      if(N ** 1 || N ** 2 || N ** 3 || N ** 4 || N ** 5 || N ** 6 || N ** 7 || N ** 8 || N ** 9 || N ** 10 == K){
+        return "ha teng"
+      }
+      else{
+        return "yuq teng emas"
+      }
   }
   else{
-    return "bunday qiymat yuq"
+    return "natija ten emas"
   }
+  
 }
+console.log(isPowerN(15))
 
-console.log(sortABC(10,45,55))
+
+
+
+
+
