@@ -188,29 +188,90 @@
 
 //! 12-masala
 
-function isPrime(N) {
-  if (N <= 1) return false;
+// function isPrime(N) {
+//   if (N <= 1) return false;
 
-  for (let i = 2; i < N; i++) {
-    if (N % i === 0) {
-      return false;
-    }
-  }
+//   for (let i = 2; i < N; i++) {
+//     if (N % i === 0) {
+//       return false;
+//     }
+//   }
 
-  return true;
-}
+//   return true;
+// }
 
-function numberOfPrime(N) {
-  let count = 0;
+// function numberOfPrime(N) {
+//   let count = 0;
 
-  for (let i = 1; i <= N; i++) {
-    if (isPrime(i)) {
-      count++;
-    }
-  }
+//   for (let i = 1; i <= N; i++) {
+//     if (isPrime(i)) {
+//       count++;
+//     }
+//   }
 
-  return count;
-}
+//   return count;
+// }
 
-console.log(numberOfPrime(10));
-console.log(numberOfPrime(20));
+// console.log(numberOfPrime(10));
+// console.log(numberOfPrime(20));
+
+//! 13-masala
+
+// function digitNth(K, N) {
+//    if(K > 0){
+//       return N;
+//    }
+//    else if(K < 0){
+//       return -1
+//    }
+// }
+
+// console.log(digitNth(-15, 5 ) )
+
+//! 14-masala
+
+// function inverseNumber(K = 1 ,N = 1){
+
+//    let natija = K.toString()
+
+//    if(N > natija){
+//       return -1
+//    }
+//    return parseInt(natija[N - 1])
+// }
+
+// console.log(inverseNumber(1, 15))    //! xat qayta ishlayman
+
+//! 15-masala
+
+// function isPalindrom(N) {
+  
+//   let natija = N;
+//   let teskari = 0
+
+//   while (N > 0) {
+//     let oxirgi = N % 10
+//     teskari = teskari *  10 + oxirgi
+//      N = Math.floor(N / 10);
+//   }
+//   return natija === teskari
+// }
+
+// console.log(isPalindrom(11));
+
+//! 16-masala
+
+
+
+
+
+//! 17-masala
+//! 18-masala
+//! 19-masala
+//! 20-masala
+//! 21-masala
+//! 22-masala
+//! 23-masala
+//! 25-masala
+//! 26-masala
+//! 27-masala
