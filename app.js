@@ -1,5 +1,3 @@
-
-
 //! 1-masala
 
 // function daraja (a = 2, b = 2){
@@ -9,10 +7,7 @@
 
 // console.log(daraja(3, 5))
 
-
-
 //! 2-masala
-
 
 // function urta (x = 1, y = 2){
 //    return [ Math.floor((x + y) / 2),  Math.floor(Math.sqrt(x * y))]
@@ -22,10 +17,7 @@
 
 // console.log( ` bu arifmitigi ${son} -- bu geomitirigi ${son}`)
 
-
-
 //! 3-masala
-
 
 // function sign(n){
 //    if(n > 0 ){
@@ -42,9 +34,7 @@
 //    }
 // }
 
-// console.log(sign(-5)) 
-
-
+// console.log(sign(-5))
 
 //! 4-masala
 
@@ -63,17 +53,14 @@
 //    else{
 //       console.log("bunday son yuq")
 //    }
-   
+
 // }
 
 // let son = numberOfRoots(1,-6 ,9);
 
 // console.log(son);
 
-
-
 //! 5-masala
-
 
 // function areaCircle(R){
 //    let P = Math.PI;
@@ -84,10 +71,7 @@
 // let son = areaCircle(3);
 // console.log(son.toFixed(1))
 
-
-
 //! 6-masala
-
 
 // function sumRange(A, B) {
 //    if(A >= B){
@@ -101,10 +85,8 @@
 //         }
 //         return total;
 //    }
-// } 
+// }
 // console.log(sumRange(8, 10))
-
-
 
 //! 7-masala
 
@@ -136,9 +118,6 @@
 // }
 // console.log(calc(15, 5, '-'))
 
-
-
-
 //! 8-masala
 
 // function  isEven(K) {
@@ -151,9 +130,7 @@
 // }
 // console.log(isEven(14))
 
-
 //! 9-masala
-
 
 // function  sortABC(a, b, c) {
 
@@ -173,11 +150,8 @@
 
 // console.log(sortABC(10,45,55))
 
-
-
 //! 10-masala
 
- 
 // function  isPowerN(K, N) {
 //    if(K > 0){
 //       if(N ** 1 ||N ** 2 || N ** 3 || N ** 4 || N ** 4 || N ** 5 || N ** 6 || N ** 7 || N ** 8 || N ** 9 || N ** 10  == K){
@@ -194,10 +168,7 @@
 // let natija = isPowerN(1,0);
 // console.log(natija)
 
-
-
 //! 11-masala
-
 
 // function isPrime(N) {
 //    if(N <= 1){
@@ -213,9 +184,33 @@
 //    return true;
 // }
 
-// console.log(isPrime(3))   
-
-
+// console.log(isPrime(3))
 
 //! 12-masala
 
+function isPrime(N) {
+  if (N <= 1) return false;
+
+  for (let i = 2; i < N; i++) {
+    if (N % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function numberOfPrime(N) {
+  let count = 0;
+
+  for (let i = 1; i <= N; i++) {
+    if (isPrime(i)) {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+console.log(numberOfPrime(10));
+console.log(numberOfPrime(20));
