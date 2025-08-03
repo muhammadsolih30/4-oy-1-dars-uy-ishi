@@ -199,9 +199,23 @@
 //! 11-masala
 
 
+// function isPrime(N) {
+//    if(N <= 1){
+//       return "son 1 dan kichik yokim boshqa muammo bor "
+//    }
+
+//    for (let i = 2; i <  N; i++) {
+//          if(N % 2 === 0){
+//             return false;
+//          }
+//    }
+
+//    return true;
+// }
+
+// console.log(isPrime(3))   
 
 
 
-
-
+//! 12-masala
 
