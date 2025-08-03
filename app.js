@@ -261,17 +261,110 @@
 
 //! 16-masala
 
+// function factorial(N) {
+//     if (N < 0) {
+//         return 1;
+//     }
 
+//     let result = 1;
+//     for (let i = 1; i <= N; i++) {
+//         result *= i;
+//     }
+
+//     return result;
+// }
+
+// console.log(factorial(5));   
 
 
 
 //! 17-masala
+
+
+// function getSum3(N) {
+//     let sum = 0;
+//     for (let i = 1; i <= N; i++) {
+//         if (i % 3 === 0) {
+//             sum += i;
+//         }
+//     }
+//     return sum;
+// }
+
+// console.log(getSum3(15));
+
+
+
 //! 18-masala
+
+// function sumOddEven(N) {
+//     let evenSum = 0;
+//     let oddSum = 0;
+
+//     for (let i = 1; i <= N; i++) {
+//         if (i % 2 === 0) {
+//             evenSum += i;
+//         } else {
+//             oddSum += i;
+//         }
+//     }
+
+//     return `${evenSum}, ${oddSum}`;
+// }
+
+// console.log(sumOddEven(10)); 
+
+
+
 //! 19-masala
+
+// function invertTime(H, M, S) {
+//     return H * 3600 + M * 60 + S;
+// }
+
+// console.log(invertTime(1, 0, 0));
+
+
+
 //! 20-masala
+      // buni ishlaolmadim
+
 //! 21-masala
+
+// function isLeapYear(Y) {
+//     return (Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0);
+// }
+
+// console.log(isLeapYear(2020)); 
+
+
+
 //! 22-masala
-//! 23-masala
-//! 25-masala
-//! 26-masala
-//! 27-masala
+
+
+// function isLeapYear(Y) {
+//     return (Y % 4 === 0 && Y % 100 !== 0) || (Y % 400 === 0);
+// }
+
+// function monthDays(M, Y) {
+//     if (M === 2) {
+//         return isLeapYear(Y) ? 29 : 28;
+//     }
+
+//     if ([1, 3, 5, 7, 8, 10, 12].includes(M)) {
+//         return 31;
+//     }
+
+//     if ([4, 6, 9, 11].includes(M)) {
+//         return 30;
+//     }
+
+//     return -1;
+// }
+
+// console.log(monthDays(11, 2022)); 
+
+
+//!23 masala ->
+//!24 masala   - >  bu uchalasini ishla olmadim
+//!25 masala ->
