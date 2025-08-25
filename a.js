@@ -456,5 +456,69 @@
 
 // //! masala - 24
 
+// function kabisayil(kabisa){
+//    if(kabisa % 4 == 0 && kabisa % 100 != 0 || kabisa % 400 == 0){
+//       return true
+//    }
+//    return false
+// }
+// function monthDays(M, Y) {
+//   switch (M) {
+//     case 1:
+//       return "yanivar" ,31;
+//     case 2:
+//       if(kabisayil(Y) == true){
+//          return "fevral", 28
+//       }
+//       else if(kabisayil(Y) == false){
+//          return "fevral", 29
+//       }
+//     case 3:
+//       return "marit" ,31;
+//     case 4:
+//       return "april" ,30;
+//     case 5:
+//       return "may" ,31;
+//     case 6:
+//       return "iyun" ,30;
+//     case 7:
+//       return "iyul" ,31;
+//     case 8:
+//       return "avgust" ,31;
+//     case 9:
+//       return "sentabir" ,30;
+//     case 10:
+//       return "oktabir" ,31;
+//     case 11:
+//       return "noyabit" ,30;
+//     case 12:
+//       return "dakabir" ,31;
+//     default:
+//         "bunday oy mavjut emas"
+//       break
+//   }
+// }
 
+// function yil(D,M,Y){
+//    if(D < 1 || D > 31){
+//       return "siz kunni no tug'ri kiritgansiz"
+//    }
+//    else if(M < 1 || M > 12){
+//       return `siz oynixayo kiritgansiz`
+//    }
+//    else if(D < 10 && D > 0 || M < 10 && M > 0){
+//       if(D < 10 && D > 0){
+//          if(M < 10 && M > 0 ){
+//             return `0${D + 1} 0${M} ${Y}`
+//          }
+//          return `0${D + 1} ${M} ${Y}`
+//       }
+//       else if(M > 0 && M < 13){
+//          return `${D + 1} 0${M} ${Y}`
+//       }
+//       return `${D + 1} ${M} ${Y}`
+//    }
+//    return `${D + 1} ${M} ${Y}`
+// }
 
+// console.log(yil(31, 12,2024)) 
