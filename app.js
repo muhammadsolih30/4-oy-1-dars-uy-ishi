@@ -366,5 +366,5 @@
 
 
 //!23 masala ->
-//!24 masala   - >  bu uchalasini ishla olmadim
-//!25 masala ->
+//!24 masala ->   - >  bu uchalasini ishla olmadim
+//!25 masala ->   -^
